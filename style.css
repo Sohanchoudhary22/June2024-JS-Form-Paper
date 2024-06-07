@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_container{
+    width: 100%;
+    height: auto;
+}
+nav{
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    background-color: rgb(196, 215, 238);
+
+}
+.logo{
+    padding: 8px;
+    width: 6%;
+    margin: auto;
+    margin-left: 50px;
+}
+.logo img{
+    width: 80%;
+    height:80px;
+    border-radius: 90px;
+}
+.link{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: auto;
+}
+ul{
+    display: flex;
+   gap: 250px;
+   font-weight: bold;
+  font-size: 22px;
+}
+a{
+    text-decoration: none;
+}
